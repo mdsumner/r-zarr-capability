@@ -1,0 +1,20 @@
+# GitHub Pages (classic Jekyll build, served from the root of main).
+# See PUBLISHING.md for the rendering facts this relies on.
+title: Zarr from R
+description: A capability map of the R routes to Zarr, from GDAL drivers to native, Rust and Bioconductor packages
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+relative_links:
+  enabled: true
+  collections: false
+titles_from_headings:
+  strip_title: false
+exclude:
+  - probe/fixtures
+  - "*.R"
+  - "*.Rproj"
