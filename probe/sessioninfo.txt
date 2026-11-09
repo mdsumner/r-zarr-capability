@@ -1,0 +1,11 @@
+date: 2026-11-09 
+R: R version 4.6.1 (2026-06-24) 
+GDAL: GDAL 3.14.0dev-fa1fc3c77e-dirty, released 2026/11/03 
+netCDF-C: netCDF 4.9.2 
+blosc in GDAL Zarr: TRUE 
+pizzarr compiled features: zarrs, filesystem, http_sync, gzip, blosc, zstd, object_store, s3, gcs, icechunk 
+
+      terra       stars      vapour  gdalraster       GDAL7        zarr 
+     1.9.57       0.7.3 0.16.0.9002  2.7.0.9002       0.1.0       1.0.1 
+    pizzarr        Rarr        zaro     RNetCDF          sf 
+      0.2.2      2.1.14  0.0.1.9030      2.11.2       1.1.3 
